@@ -39,5 +39,13 @@ content.
 - Presentation quality and clarity of communication
 
 ### Video
+https://github.com/DivyaSakariya/pr_2_mirror_wall/assets/113959976/f7014fb1-abfc-496d-9072-d7b1f9a545a7
 
 ### ScreenShots
+<img src="https://github.com/DivyaSakariya/pr_2_mirror_wall/assets/113959976/7c15e5b1-e27e-4f43-b8bf-31df7794a460"  width="250px"></img>
+<img src="https://github.com/DivyaSakariya/pr_2_mirror_wall/assets/113959976/9753d124-5dfc-4459-8d86-950750077066"  width="250px"></img>
+<img src="https://github.com/DivyaSakariya/pr_2_mirror_wall/assets/113959976/fb704e3e-e699-471e-8f8a-123fedf04901"  width="250px"></img>
+<img src="https://github.com/DivyaSakariya/pr_2_mirror_wall/assets/113959976/915ccce9-c731-464f-b083-21dab79252db"  width="250px"></img>
+<img src="https://github.com/DivyaSakariya/pr_2_mirror_wall/assets/113959976/ed9580d6-9f28-4197-8d93-0618ebd8a626"  width="250px"></img>
+<img src="https://github.com/DivyaSakariya/pr_2_mirror_wall/assets/113959976/db1aa9ce-bf32-4ec4-8bba-f72a136cdeab"  width="250px"></img>
+<img src="https://github.com/DivyaSakariya/pr_2_mirror_wall/assets/113959976/3c6fe2a7-4780-4fdf-9540-9445cd6f73f3"  width="250px"></img>
