@@ -319,56 +319,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         ),
-        // bottomNavigationBar: BottomAppBar(
-        //   child: Row(
-        //     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        //     children: [
-        //       IconButton(
-        //         onPressed: () {
-        //           setState(() {
-        //             selectedUrl = "https://www.google.com/";
-        //           });
-        //         },
-        //         icon: const Icon(Icons.home),
-        //       ),
-        //       IconButton(
-        //         onPressed: () {
-        //           var currentUrl = selectedUrl;
-        //           bookmarks.add(currentUrl);
-        //         },
-        //         icon: const Icon(Icons.bookmark_add),
-        //       ),
-        //       Visibility(
-        //         visible: canBack,
-        //         child: IconButton(
-        //           onPressed: () {
-        //             setState(() {
-        //               webViewController!.goBack();
-        //             });
-        //           },
-        //           icon: const Icon(Icons.arrow_back_ios_new_rounded),
-        //         ),
-        //       ),
-        //       IconButton(
-        //         onPressed: () {
-        //           webViewController!.reload();
-        //         },
-        //         icon: const Icon(Icons.refresh_rounded),
-        //       ),
-        //       Visibility(
-        //         visible: canForward,
-        //         child: IconButton(
-        //           onPressed: () {
-        //             setState(() {
-        //               webViewController!.goForward();
-        //             });
-        //           },
-        //           icon: const Icon(Icons.arrow_forward_ios_rounded),
-        //         ),
-        //       ),
-        //     ],
-        //   ),
-        // ),
       ),
     );
   }
