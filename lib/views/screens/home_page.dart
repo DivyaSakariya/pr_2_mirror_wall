@@ -296,22 +296,18 @@ class _HomePageState extends State<HomePage> {
               onChanged: (val) {
                 textData = val;
               },
-              onSubmitted: (value) {
-                textData = value;
-                setState(() {
-                  selectedUrl = "https://www.google.com/search?q=$value&oq=$value&aqs=chrome.0.69i59j69i60l3j69i65l3j69i60.1707j0j7&sourceid=chrome&ie=UTF-8";
-                });
-              },
               decoration: InputDecoration(
                 border: const OutlineInputBorder(),
                 hintText: "Select or type web address",
                 suffixIcon: IconButton(
                   onPressed: () {
-                    setState(() {
-                      textUrl =
-                          "https://www.google.com/search?q=$textData&oq=$textData&aqs=chrome.0.69i59j69i60l3j69i65l3j69i60.1707j0j7&sourceid=chrome&ie=UTF-8";
-                      selectedUrl = textUrl;
-                    });
+                    var search = textEditingController.text;
+                    webViewController!.loadUrl(
+                      urlRequest: URLRequest(
+                        url: Uri.parse(
+                            "https://www.google.com/search?q=$search"),
+                      ),
+                    );
                   },
                   icon: const Icon(Icons.search),
                 ),
